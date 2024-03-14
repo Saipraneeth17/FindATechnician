@@ -1,0 +1,68 @@
+[
+  {
+    "name": "AC Repair & Service",
+    "price": "47,043",
+    "detail": "Stay cool with expert AC repair and maintenance services.",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Air Cooler Repair",
+    "price": "66,353",
+    "detail": "Keep your air cooler running smoothly with our repair services.",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Chimney Repair",
+    "price": "35,853",
+    "detail": "Ensure your kitchen stays smoke-free with our chimney repair services.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Geyser Repair",
+    "price": "47,043",
+    "detail": "Enjoy hot water again with our fast and reliable geyser repair services.",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Inverter Service & Repair",
+    "price": "66,353",
+    "detail": "Enjoy hot water again with our fast and reliable geyser repair services.",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Laptop Repair",
+    "price": "35,853",
+    "detail": "Get your laptop back in working order with our repair services.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Microwave Repair",
+    "price": "35,853",
+    "detail": "Don't let a malfunctioning microwave disrupt your cooking routine.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Mixer & Grinder Repair",
+    "price": "35,853",
+    "detail": "Get your mixer and grinder back in top shape with our repair services.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Refrigerator Repair",
+    "price": "35,853",
+    "detail": "Get your mixer and grinder back in top shape with our repair services.",
+    "image": "./r3.png"
+  },{
+    "name": "Television Repair",
+    "price": "35,853",
+    "detail": "Get back to enjoying your favorite shows with our television repair services.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Washing Machine Repair",
+    "price": "35,853",
+    "detail": " Ensure your clothes are always clean with our washing machine repair services",
+    "image": "./r3.png"
+  }
+  
+]
