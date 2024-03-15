@@ -3,12 +3,14 @@
   position: relative;
   z-index: 1;
   padding-bottom: 2rem;
+  background: white;
 }
 
 
 .hero-container {
   justify-content: space-around;
-  align-items: flex-end; 
+  align-items: flex-end;
+   
 }
 
 
@@ -19,6 +21,7 @@
 .hero-title {
   position: relative;
   z-index: 1;
+  color: black;
   
 }
 .hero-title > h1 {
@@ -62,11 +65,11 @@
 /* right side */
 
 .image-container {
-  width: 32rem;
-  height: 42rem;
+  width: 29rem;
+  height: 35rem;
   overflow: hidden;
-  border-radius: 14rem 14rem 0 0;
-  border: 8px solid rgba(255, 255, 255, 0.12);
+  /* border-radius: 14rem 14rem 0 0; */
+  /* border: 8px solid rgba(255, 255, 255, 0.12); */
 }
 .image-container>img{
     width: 100%;

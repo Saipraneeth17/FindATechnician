@@ -36,7 +36,7 @@ const Services = () => {
                 <span className="secondaryText r-price">
                   <span className="basicPriceLabel">Basic Price:</span>
                   <span className="priceText">
-                    <span style={{ color: "orange" }}>$</span>
+                    <span style={{ color: "orange" }}>₹</span>
                     {card.price}
                     <button className="button r-bookButton">
                       <a href="##">Book</a>

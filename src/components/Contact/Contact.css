@@ -13,10 +13,13 @@
 .contactModes {
   margin-top: 2rem;
   gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
 }
-.contactModes .row {
+/* .contactModes .row {
   gap: 1.5rem;
-}
+} */
 .mode {
   width: 16rem;
   padding: 1rem;
@@ -60,15 +63,19 @@
     justify-content: center;
   }
 }
-@media (max-width: 1024px)
+@media (max-width: 768px)
 {
-    .contactModes{
-        width: 100%;
-    }
-    .row{
+  .contactModes {
+    margin-top: 2rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+    /* .row{
         flex-direction: column;
         width: 100%;
-    }
+    } */
     .mode{
         width: 100%;
     }

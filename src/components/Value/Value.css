@@ -10,6 +10,7 @@
 .accordion {
   margin-top: 2rem;
   border: none;
+  width: 100%;
 }
 .accordionItem {
   background: white;

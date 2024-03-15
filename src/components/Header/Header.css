@@ -2,16 +2,19 @@
   z-index: 99;
   position: sticky;
   top: 0;
+  
 }
 .h-container {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: var(--secondary);
+  background: white;
   justify-content: space-between;
 }
 
 .h-menu {
   gap: 2rem;
+  color: black;
 }
 .h-menu > *:hover {
   cursor: pointer;
@@ -23,6 +26,7 @@
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
+    color: black;
   }
   .h-menu {
     color: var(--black);

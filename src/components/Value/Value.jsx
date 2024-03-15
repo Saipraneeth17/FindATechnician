@@ -21,11 +21,11 @@ const Value = () => {
     <section id="value" className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
-        <div className="v-left">
+        {/* <div className="v-left">
           <div className="image-container">
             <img src="./value.png" alt="" />
           </div>
-        </div>
+        </div> */}
 
         {/* right */}
         <div className="flexColStart v-right">
@@ -34,9 +34,9 @@ const Value = () => {
           <span className="primaryText">Value We Give to You</span>
 
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you.
+            We always ready to help by providing the best services for you.
             <br />
-            We beleive a good blace to live can make your life better
+            {/* We beleive a good blace to live can make your life better */}
           </span>
 
           <Accordion

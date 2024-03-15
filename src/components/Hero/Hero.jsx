@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
 
         {/* right side */}
-        {/* <div className="flexCenter hero-right">
+        <div className="flexCenter hero-right">
           <motion.div
             initial={{ x: "7rem", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -72,7 +72,7 @@ const Hero = () => {
           >
             <img src="./hero-image.png" alt="houses" />
           </motion.div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
