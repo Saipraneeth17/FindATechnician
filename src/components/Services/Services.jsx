@@ -6,8 +6,14 @@ import "swiper/css";
 import "./Services.css";
 import { sliderSettings } from "../../utils/common";
 import { Link } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Services = () => {
+  const navigate = useNavigate();
+  const handleBook = (card) => {
+    navigate('/user/booking', { state: { card } });
+  };
+
   return (
     <div id="services" className="r-wrapper">
       <div className="paddings innerWidth r-container">
@@ -40,9 +46,9 @@ const Services = () => {
                     {card.price}
                     {/* <button className="button r-bookButton"></button> */}
 
-                    <Link to="/user/booking" className="button r-bookButton">
+                    <button onClick={() => handleBook(card)} className="button r-bookButton">
                       Book
-                    </Link>
+                    </button>
                   </span>
                 </span>
               </div>

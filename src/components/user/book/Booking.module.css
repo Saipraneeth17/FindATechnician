@@ -1,6 +1,6 @@
 /* Bookings.module.css */
 
-.bookingTitle {
+/* .bookingTitle {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -13,7 +13,7 @@
   height: 70px;
   width: 70px;
   border-radius: 50%;
-}
+} */
 body {
   /* background: linear-gradient(97.05deg, #4066ff 10%, #2949c6 100%); */
   background: #fff;
@@ -39,6 +39,10 @@ body {
   font-size: 36px;
   margin-bottom: 20px;
   text-transform: none;
+}
+.bookingContainer img {
+  width: 200px;
+  height:150px;
 }
 
 .bookingForm {

@@ -5,6 +5,7 @@ import { getMenuStyles } from "../../utils/common";
 import useHeaderColor from "../../hooks/useHeaderColor";
 import OutsideClickHandler from "react-outside-click-handler";
 import { Link } from "react-router-dom";
+import logo from '../../image/FAT-logo.png'
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerColor = useHeaderColor();
@@ -14,7 +15,7 @@ const Header = () => {
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <img
-          src="./logo-1a.jpeg"
+          src={logo}
           alt="logo"
           width={50}
           style={{ borderRadius: "50%", overflow: "hidden" }}
@@ -31,9 +32,15 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="#services">Our Services</a>
-            <a href="#value">Our Value</a>
-            <a href="#contact-us">Contact Us</a>
+            <Link to="/user" >
+              Home
+            </Link>
+            <Link to="/user/mybookings" >
+              Bookings
+            </Link>
+            <Link to="/user/profile" >
+              Profile
+            </Link>
 
             <Link to="/user/login" className="button">
               Login

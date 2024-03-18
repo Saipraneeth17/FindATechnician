@@ -31,8 +31,11 @@ const Hero = () => {
 
           <div className="flexCenter search-bar">
             {/* <HiLocationMarker color="var(--blue)" size={25} /> */}
-            <input type="text" placeholder="Search for Service" />
-            <button className="button">Search</button>
+            {/* <input type="text" placeholder="Search for Service" />
+            <button className="button">Search</button> */}
+            <a href="#services">Our Services</a>
+            <a href="#value">Our Value</a>
+            <a href="#contact-us">Contact Us</a>
           </div>
 
           {/* <div className="flexCenter stats">

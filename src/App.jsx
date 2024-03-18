@@ -17,48 +17,35 @@ import AdminProfile from "./components/admin/profile/AdminProfile";
 import LoginComponent from "./components/user/login/LoginComponent";
 import Register from "./components/user/register/Register";
 import UserProfile from "./components/user/profile/UserProfile";
-// import UserIndexComponent from "./components/user/UserIndexComponent";
 import BookingsComponent from "./components/user/bookings/BookingsComponent";
-// import CardComponent from "./components/user/CardComponent";
 import BookingDetails from "./components/user/details/BookingDetails";
 import BookingComponent from "./components/user/book/BookingComponent";
 import HomePage from "./pages/HomePage";
+import UserLayout from "./layouts/UserLayout";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
+
         {/* user routes */}
+        <Route path="/user" element={<HomePage />}></Route>
         <Route path="/user/register" element={<Register />} />
         <Route path="/user/login" exact element={<LoginComponent />} />
-        <Route path="/user/profile" element={<UserProfile />} />
-        <Route path="/user/booking" element={<BookingComponent />} />
-        <Route path="/user/mybookings" element={<BookingsComponent />} />
-        <Route path="/user/mybookings/details" element={<BookingDetails />} />
+        <Route element={<UserLayout />}>
+          <Route path="/user/profile" element={<UserProfile />} />
+          <Route path="/user/booking" element={<BookingComponent />} />
+          <Route path="/user/mybookings" element={<BookingsComponent />} />
+          <Route path="/user/mybookings/details" element={<BookingDetails />} />
+        </Route>
+
 
         {/* technician routes */}
         <Route path="/technician/login" exact element={<TechnicianLogin />} />
-        <Route
-          path="/technician/register"
-          exact
-          element={<TechnicianRegister />}
-        />
-        <Route
-          path="/technician/profile"
-          exact
-          element={<TechnicianProfile />}
-        />
-        <Route
-          path="/technician/mybookings"
-          exact
-          element={<TechnicianBookings />}
-        />
-        <Route
-          path="/technician/mybookings/details"
-          exact
-          element={<Details />}
-        />
+        <Route path="/technician/register" exact element={<TechnicianRegister />} />
+        <Route path="/technician/profile" exact element={<TechnicianProfile />} />
+        <Route path="/technician/mybookings" exact element={<TechnicianBookings />} />
+        <Route path="/technician/mybookings/details" exact element={<Details />} />
 
         {/* admin routes */}
         <Route path="/admin/login" exact element={<AdminLogin />} />

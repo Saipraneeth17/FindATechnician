@@ -82,6 +82,7 @@
 .signin button {
   color: #4066ff;
   background: #fff;
+  border:none;
 }
 
 .signin button:hover {
@@ -147,6 +148,7 @@
   letter-spacing: 1px;
   cursor: pointer;
   transform: scale(1.5px);
+  transition: 0.4s;
 }
 
 @keyframes pulse {

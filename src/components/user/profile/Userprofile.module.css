@@ -6,17 +6,6 @@ body {
 
 /* Techprofile.module.css */
 
-.profileTitle {
-    background: linear-gradient(97.6deg, #4066ff 30%, #2949c6 100%);
-    padding: 20px;
-}
-
-.profileTitle img {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-}
-
 .profileDetails {
     display: flex;
     justify-content: center;

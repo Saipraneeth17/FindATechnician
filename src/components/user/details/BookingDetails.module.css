@@ -1,11 +1,3 @@
-.detailsTitle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    background-color: black;
-}
-
 body {
     background: #fff;
     /* background: linear-gradient(97.05deg, #4066ff 10%, #2949c6 100%); */

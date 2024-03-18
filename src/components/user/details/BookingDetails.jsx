@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import styles from './BookingDetails.module.css';
-import logo from '../../../image/FAT-logo.png';
 import axios from 'axios';
 
 
@@ -60,9 +59,6 @@ const BookingDetails = () => {
 
     return (
         <div>
-            <header className={styles.detailsTitle}>
-                <img src={logo} alt="logo" />
-            </header>
 
             <section className={styles.bookingDetails}>
                 <div className={styles.bookingCard}>

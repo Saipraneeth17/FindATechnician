@@ -4,9 +4,10 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import logo from '../../../image/FAT-logo.png';
 import styles from './Booking.module.css';
 
-const BookingComponent = (props) => {
+const BookingComponent = () => {
   let location = useLocation();
-  const data = location.state;
+  const data = location.state.card;
+  console.log(data);
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
   const [description, setDescription] = useState('');
@@ -17,7 +18,7 @@ const BookingComponent = (props) => {
   const bookService = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8080/api/user/book', { serviceId, date, time, description });
+      const response = await axios.post('http://localhost:8080/api/user/book', { userId, serviceId, date, time, description });
       console.log(response.data);
       navigate('/user/mybookings');
     } catch (error) {
@@ -30,11 +31,9 @@ const BookingComponent = (props) => {
 
   return (
     <div>
-      <header className={styles.bookingTitle}>
-        <img src={logo} alt="logo" />
-      </header>
       <section className={styles.bookingContainer}>
-        <h2>You are booking service for {data.type}</h2>
+        <h2>{data.name} and Service</h2>
+        <img src={data.image} alt="" />
         <form className={styles.bookingForm} onSubmit={bookService}>
           <input type="date" onChange={(e) => setDate(e.target.value)} required />
           <input type="time" onChange={(e) => setTime(e.target.value)} required />

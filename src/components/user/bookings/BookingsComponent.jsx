@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import BookingCard from './BookingCard';
 import styles from './BookingsComponent.module.css'; // Import CSS module
-import logo from '../../../image/FAT-logo.png';
 import axios from 'axios';
 
 const BookingsComponent = () => {
@@ -22,9 +21,6 @@ const BookingsComponent = () => {
 
   return (
     <div>
-      <header className={styles.bookingsTitle}>
-        <img src={logo} alt="Logo" />
-      </header>
       <section className={styles.bookingsContainer}>
         <h1>My Bookings</h1>
         {/* <BookingCard /> */}

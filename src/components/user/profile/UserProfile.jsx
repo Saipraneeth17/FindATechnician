@@ -21,10 +21,30 @@ const UserProfile = () => {//need to receive user id as prop
             });
     }, []);
     return (
+        // <div>
+        //     
+        //     <section className={styles.profileDetails}> 
+        //         <div className={styles.card}> 
+        //             <div className={styles.imageContainer}> 
+        //                 <h1>Profile Details</h1>
+        //                 <img src={avtar} alt="Profile Picture" className={styles.profileImage} />
+
+        //             </div>
+        //             <div className={styles.detailsContainer}>
+        //                 <p className={styles.greeting}>Hello {details.firstName} {details.lastName},</p>
+        //                 <div className={styles.details}> 
+        //                     <p><strong>User ID:</strong> {details.id}</p>
+        //                     <p><strong>First Name:</strong> {details.firstName}</p>
+        //                     <p><strong>Last Name:</strong> {details.lastName}</p>
+        //                     <p><strong>City:</strong> {details.city}</p>
+        //                     <p><strong>Email:</strong> {details.email}</p>
+        //                     <p><strong>Phone:</strong> {details.phone}</p>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </section>
+        // </div>
         <div>
-            <header className={styles.profileTitle}> 
-                <img src={logo} alt="" />
-            </header>
             <section className={styles.profileDetails}> 
                 <div className={styles.card}> 
                     <div className={styles.imageContainer}> 
@@ -33,14 +53,14 @@ const UserProfile = () => {//need to receive user id as prop
 
                     </div>
                     <div className={styles.detailsContainer}>
-                        <p className={styles.greeting}>Hello {details.firstName} {details.lastName},</p>
+                        <p className={styles.greeting}>Hello Sai Praneeth,</p>
                         <div className={styles.details}> 
-                            <p><strong>User ID:</strong> {details.id}</p>
-                            <p><strong>First Name:</strong> {details.firstName}</p>
-                            <p><strong>Last Name:</strong> {details.lastName}</p>
-                            <p><strong>City:</strong> {details.city}</p>
-                            <p><strong>Email:</strong> {details.email}</p>
-                            <p><strong>Phone:</strong> {details.phone}</p>
+                            <p><strong>User ID:</strong> 464499</p>
+                            <p><strong>First Name:</strong> Sai</p>
+                            <p><strong>Last Name:</strong> Praneeth</p>
+                            <p><strong>City:</strong> Hyderabad</p>
+                            <p><strong>Email:</strong> saipraneeth@mail.com</p>
+                            <p><strong>Phone:</strong> 9030807040</p>
                         </div>
                     </div>
                 </div>
