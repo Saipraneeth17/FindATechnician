@@ -1,0 +1,88 @@
+/* BookingsComponent.module.css */
+body {
+    background: linear-gradient(97.05deg, #4066ff 10%, #2949c6 100%)
+  }
+  .bookingsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0;
+    background: #fff;
+  }
+  
+  .bookingsTitle img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+  
+  .bookingsContainer {
+    background: linear-gradient(97.05deg, #4066ff 10%, #2949c6 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .bookingsContainer h1 {
+    background-color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* BookingCard.module.css */
+  .bookingCard {
+    width: 80%;
+    height: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #2949c6;
+  }
+  
+  .bookingCardImage {
+    margin-right: 30px;
+  }
+  
+  .bookingCardContent {
+    flex-grow: 1;
+  }
+  
+  .cardTitle {
+    font-size: 1.4em;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .cardText {
+    font-weight: 500;
+  }
+  
+  .cardButton {
+    cursor: pointer;
+    background-color: #2949c6;
+    color: #fff;
+    font-size: 1.15em;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+  
+  .cardButton:hover {
+    background-color: #4066ff;
+    letter-spacing: 1px;
+  }

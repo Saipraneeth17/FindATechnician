@@ -1,0 +1,154 @@
+.detailsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: black;
+}
+
+body {
+    background: #fff;
+    /* background: linear-gradient(97.05deg, #4066ff 10%, #2949c6 100%); */
+
+}
+
+.detailsTitle img {
+    height: 60px;
+    width: 60px;
+}
+
+.bookingDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bookingCard {
+    width: 90%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.bookingCardContent {
+    margin: 10px 0;
+}
+
+
+.option {
+    margin-top: 10px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.complete {
+    border-color: green;
+    color: green;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+    background: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.complete:hover {
+    background: green;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+
+.feedbackForm {
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+.feedbackForm h2 {
+    text-transform: uppercase;
+}
+
+.feedbackForm label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.rating {
+    margin-bottom: 10px;
+    direction: rtl;
+    text-align: left;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    cursor: pointer;
+    color: #ccc;
+    margin-top: 5px;
+}
+
+.rating label:before {
+    content: '★';
+    margin-right: 5px;
+    font-size: 40px;
+    
+}
+
+.rating input:checked~label {
+    color: #f90;
+}
+
+.comment {
+    border: 1px rgb(15, 20, 25) solid;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-transform: none;
+}
+
+.submitButton {
+    background-color: rgb(15, 20, 25);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submitButton:hover {
+    background-color: #777;
+}
+
+
+
+.feedbackcard {
+    width: 90%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+
+.feedbackcard strong {
+    font-weight: bold;
+}
+
+.feedbackcard p {
+    margin-bottom: 5px;
+}

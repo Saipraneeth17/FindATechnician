@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "./Services.css";
 import { sliderSettings } from "../../utils/common";
-
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -38,9 +38,11 @@ const Services = () => {
                   <span className="priceText">
                     <span style={{ color: "orange" }}>₹</span>
                     {card.price}
-                    <button className="button r-bookButton">
-                      <a href="##">Book</a>
-                    </button>
+                    {/* <button className="button r-bookButton"></button> */}
+
+                    <Link to="/user/booking" className="button r-bookButton">
+                      Book
+                    </Link>
                   </span>
                 </span>
               </div>
@@ -53,8 +55,6 @@ const Services = () => {
 };
 
 export default Services;
-
-
 
 const SlideNextButton = () => {
   const swiper = useSwiper();
@@ -69,5 +69,3 @@ const SlideNextButton = () => {
     </div>
   );
 };
-
-

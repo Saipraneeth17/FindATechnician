@@ -1,68 +1,68 @@
 [
   {
     "name": "AC Repair & Service",
-    "price": "50",
+    "price": "500",
     "detail": "Stay cool with expert AC repair and maintenance services.",
-    "image": "./r1.png"
+    "image": "./ac.jpg"
   },
   {
     "name": "Air Cooler Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Keep your air cooler running smoothly with our repair services.",
-    "image": "./r2.png"
+    "image": "./Air_Cooler1.jpg"
   },
   {
     "name": "Chimney Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Ensure your kitchen stays smoke-free with our chimney repair services.",
-    "image": "./r3.png"
+    "image": "./Chimney.avif"
   },
   {
     "name": "Geyser Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Enjoy hot water again with our fast and reliable geyser repair services.",
-    "image": "./r1.png"
+    "image": "./geyser.webp"
   },
   {
     "name": "Inverter Service & Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Enjoy hot water again with our fast and reliable geyser repair services.",
-    "image": "./r2.png"
+    "image": "./ele.jpg"
   },
   {
     "name": "Laptop Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Get your laptop back in working order with our repair services.",
-    "image": "./r3.png"
+    "image": "./laptop1.jpg"
   },
   {
     "name": "Microwave Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Don't let a malfunctioning microwave disrupt your cooking routine.",
-    "image": "./r3.png"
+    "image": "./Microwave-Repair.webp"
   },
   {
     "name": "Mixer & Grinder Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Get your mixer and grinder back in top shape with our repair services.",
-    "image": "./r3.png"
+    "image": "./Mixer-Blender-Repair.webp"
   },
   {
     "name": "Refrigerator Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Get your mixer and grinder back in top shape with our repair services.",
-    "image": "./r3.png"
+    "image": "./referegator.jpg"
   },{
     "name": "Television Repair",
-    "price": "50",
+    "price": "500",
     "detail": "Get back to enjoying your favorite shows with our television repair services.",
-    "image": "./r3.png"
+    "image": "./TVrepair.png"
   },
   {
     "name": "Washing Machine Repair",
-    "price": "50",
+    "price": "500",
     "detail": " Ensure your clothes are always clean with our washing machine repair services",
-    "image": "./r3.png"
+    "image": "./WashingMachine.jpg"
   }
   
 ]
